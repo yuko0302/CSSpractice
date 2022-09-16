@@ -1,0 +1,55 @@
+header{
+  display: flex;
+  width: 100vw;
+}
+
+.header_ttl{
+  display: inline;
+  font-size: 30px;
+  color: rgb(4, 4, 173);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.header_content{
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+li{
+  display: inline;
+  margin-top: 20px;
+  margin-left: 35px;
+  color: rgb(4, 4, 173);
+  
+}
+
+.main{
+  width: 100vw;
+  height: 500px;
+}
+
+img{
+  position: relative;
+  width: 50%;
+  float: right;
+  margin-top: 100px;
+  z-index: 10;
+}
+
+.content_ttl{
+  font-size: 70px;
+  position: relative;
+  top: 450px;
+}
+
+.box{
+  width: 80%;
+  height: 200px;
+  background-color: rgb(4, 4, 173);
+  position: absolute;
+  top: 72%;
+  z-index: 0;
+  }
